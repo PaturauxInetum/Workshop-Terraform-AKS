@@ -10,7 +10,7 @@ variable "azure_region" {
 #  Resource Group Name
 variable "resource_group" {
   type    = string
-  default = "RG-AKSCluster"
+  default = "RG-AKSCluster-FPA"
 }
 
 # Virtual Network name
@@ -74,7 +74,7 @@ variable "admin_username" {
 variable "kubernetes_version" {
   description = "Version of Kubernetes to deploy"
   type        = string
-  default     = "1.22.6"
+  default     = "1.24.6"
 }
 
 
